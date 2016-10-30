@@ -1,2 +1,2 @@
 # Sudoku-Solver
-App to get the solution of a Sudoku problem
+Web App to get the solution of a Sudoku problem
