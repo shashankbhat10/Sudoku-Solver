@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.description{
+  position: absolute;
+  width: 450px;
+  top: 70px;
+  right: 80px;
+  padding: 15px;
+  background-color: red;
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+.grid-container{
+  position: absolute;
+  top: 70px;
+  height: 550px;
+  width: 550px;
+  margin-left: 200px;
+  border-radius: 20px;
+  z-index: -1;
+  background-color: grey;
+}
+
+
+.grid-row{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+.grid-cell{
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+  top: 10px;
+  left: 10px;
+  height: 45px;
+  width: 45px;
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
