@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+html{
+  background-color: #454a56;
+}
+
+p{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+.description{
+  color: white;
+  font-family: Roboto;
+  position: absolute;
+  width: 450px;
+  margin-top: 20px;
+  top: 70px;
+  right: 80px;
+  padding: 15px;
+  background-color: inherit;
+}
+
+
+h1{
+  text-align: center;
+}
+
+
+
+.grid-container{
+  position: absolute;
+  top: 70px;
+  height: 550px;
+  width: 550px;
+  margin-left: 200px;
+  border-radius: 20px;
+  background-color: grey;
+}
+
+
+.grid-row{
+  display: inline-block;
+  margin-top: 10px;
+  perspective: 550px;
+  transform-style: preserve-3d;
+}
+
+
+.black-border {
+    box-sizing: border-box;
+    border: 2px solid;
+    border-color: black;
+}
+
+.red-border {
+    box-sizing: border-box;
+    border: 2px solid;
+    border-color: red;
+}
+
+
+.grid-cell{
+  font-size: 25px;
+  display: inline-block;
+  overflow: hidden;
+  color: black;
+  position: relative;
+  margin-left: 10px;
+  top: 10px;
+  left: 10px;
+  height: 45px;
+  width: 45px;
+  padding-top: 7px;
+  background-color: #d7dbe5;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 5px #5f6775;
+  cursor: pointer;
+  transition: background-color 0.5s linear, transform 0.5s;
+}
+
+
+
+
+.grid-cell:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+    box-shadow: 4px 4px 10px #5f6775;
+    background-color: #f6ffbf;
+}
+
+
+button {
+    position: relative;
+    left: 50px;
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+
+.used{
+  background-color: #f6ffbf;
+}
+
+.clicked{
+  background-color: yellow;
+}
+
+
+
+.solved {
+    background-color: #94f796;
+}
+
+.wrong {
+    background-color: #ff6666;
+}
+
+.grid-cell.solved {
+    transition: 2s;
+    transform: rotateX(-360deg);
+}
+
+
+
+p.message {
+    width: auto;
+    border-radius: 20px;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    color: black;
+    font-family: Roboto;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.correctAns {
+    background-color: #5eff66;
+}
+
+.wrongAns {
+    background-color: #ff6666;
+}
+
+
+footer {
+    width: 100%;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px 40%;
+    position: fixed;
+    bottom: 0;
+    background-color: #242B3C;
+    border-radius: 2px 2px 0 0;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+
+.fa {
+    color: white;
+}
+
+a {
+    position: relative;
+    left: 15px;
+}
+
+.fa-linkedin {
+    position: relative;
+    left: 15px;
+}
+
